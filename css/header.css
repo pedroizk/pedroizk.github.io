@@ -11,6 +11,7 @@
     font-size: 2rem;
     grid-column: 1/-1;
     word-break: keep-all;
+    white-space: nowrap;
 }
 
 .title h1 {
