@@ -10,6 +10,7 @@ body {
     padding: 0;
     font-family: "Fira Sans", sans-serif;
     min-width: 400px;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, p {
@@ -47,6 +48,14 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media (max-width: 1050px)
+{
+    .try{
+        justify-content: start;
+        margin-left: -15vh;
+    }
 }
 
 
