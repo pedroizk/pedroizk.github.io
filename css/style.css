@@ -10,7 +10,7 @@ body {
     padding: 0;
     font-family: "Fira Sans", sans-serif;
     min-width: 400px;
-    overflow-x: hidden;
+
 }
 
 h1, h2, h3, p {
@@ -54,7 +54,7 @@ img {
 {
     .try{
         justify-content: start;
-        margin-left: -15vh;
+        width: 100%;
     }
 }
 
