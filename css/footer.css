@@ -1,5 +1,6 @@
 .footerBack {
     background-color: black;
+    width: 100%;
 }
 
 .footer {
@@ -29,25 +30,23 @@
 @media (max-width: 1050px)
 {
     .footer {
-        margin-left: 85px;
-        margin-right: 85px;
-        padding: 120px 0px;
-        max-width: 800px;
+        display:grid;
+        grid-template-columns:1fr;
+        margin-left: 20vh;
+        margin-right: 20vh;
         gap: 40px;
-        grid-template-columns: 1fr;
-        grid-row: 1fr 1fr;
-        min-width: 400px;
     }
+
     .footer p {
         word-break: normal;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 1.23;
         color: #cccccc;
         text-align: center;
     }
     
     .footer h1 {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         line-height: 1.1;
         color: #ffffff;
         margin-bottom: 10px;

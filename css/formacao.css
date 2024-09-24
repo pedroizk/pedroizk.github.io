@@ -180,6 +180,11 @@
         margin-top: 160px;
     }
 
+    .formBlocks {
+        align-items: center;
+        justify-content: center;
+    }
+
     .tituloa {
         display: none;
     }
@@ -192,5 +197,15 @@
     }
     .novo {
         grid-column: 1;
+    }
+
+    .cursos, .novo {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .novo h1::before, .cursos h1::before
+    {
+        display: none;
     }
 }
