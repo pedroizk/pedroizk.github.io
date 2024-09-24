@@ -36,7 +36,9 @@
 @media (max-width: 1050px) {
     .head{
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 150px 150px;
+        grid-template-columns: 1fr;
+        
         justify-content: center;
     }
     .title h1{
@@ -45,11 +47,14 @@
     }
     .title{
         place-self: center center;
+        display: block;
     }
     .headerMenu {
        padding: 0px;
        margin-right: 0px;
-       margin-left: 35px;
+    }
+    nav{
+        place-self: center center;
     }
 
 }

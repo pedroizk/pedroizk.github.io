@@ -3,7 +3,7 @@
 }
 
 .footer {
-    padding: 120px 20px;
+    padding: 120px;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -24,4 +24,29 @@
     line-height: 1.1;
     color: #ffffff;
     margin-bottom: 30px;
+}
+
+@media (max-width: 1050px)
+{
+    .footer {
+        margin-left: 85px;
+        margin-right: 85px;
+        padding: 120px 0px;
+        max-width: 800px;
+        gap: 40px;
+
+    }
+    .footer p {
+        word-break: normal;
+        font-size: 1.4rem;
+        line-height: 1.23;
+        color: #cccccc;
+    }
+    
+    .footer h1 {
+        font-size: 1.6rem;
+        line-height: 1.1;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
 }

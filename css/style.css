@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", sans-serif;
+    min-width: 400px;
 }
 
 h1, h2, h3, p {
@@ -38,6 +39,7 @@ img {
     margin-right: 20vh;
     grid-template-columns: 100%;
     grid-template-rows: repeat(auto, 5);
+    min-width: 400px;
     
 }
 
