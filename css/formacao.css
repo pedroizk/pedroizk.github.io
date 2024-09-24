@@ -179,7 +179,6 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         margin-top: 160px;
-        width: auto;
     }
 
     .formBlocks {
