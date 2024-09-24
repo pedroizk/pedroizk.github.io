@@ -34,13 +34,16 @@
         padding: 120px 0px;
         max-width: 800px;
         gap: 40px;
-
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr;
+        min-width: 400px;
     }
     .footer p {
         word-break: normal;
         font-size: 1.4rem;
         line-height: 1.23;
         color: #cccccc;
+        text-align: center;
     }
     
     .footer h1 {
@@ -48,5 +51,6 @@
         line-height: 1.1;
         color: #ffffff;
         margin-bottom: 10px;
+        text-align: center;
     }
 }
