@@ -1,0 +1,153 @@
+p {
+    word-break: break-all;
+}
+
+.exp {
+    height: 600px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    gap: 3rem;
+}
+
+.c1{
+    margin-left: 52px;
+}
+
+.c1 h1{
+    word-break: keep-all;
+}
+
+.tituloExp {
+    font-size: 10rem;
+    line-height: 1;
+    word-break: break-all;
+    max-width: 4ch;
+    color: #e0e0e0;
+
+}
+
+
+
+.c2 .textExp {
+    word-break: normal;
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+    color: #525252;
+    margin-top: 6px;
+}
+
+.blocosExp {
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    width: 800px;
+    height: 140px;
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.bloco h1{
+    z-index: 1;
+    position: relative;
+    font-weight:700;
+}
+
+.bloco h1::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url('../img/detalhe\ grad.svg') no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    width: 22px;
+
+    top: -36px;
+    left: -30px;
+    z-index: -1;
+}
+
+.bloco p {
+    word-break: normal;
+    margin-top: 12px;
+    font-size: 1.1rem;
+    width: 44ch;
+    color:#525252;
+}
+
+.listaExp ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+
+}
+
+.listaExp li {
+    background-color: white;
+    color: #525252;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.blocosExp::before {
+    content: "2024/1";
+    display: block;
+    width: 130px;
+    position: absolute;
+    top: 14px;
+    left: -60px;
+    z-index: -1;
+    color: #525252;
+    font-weight: normal;
+}
+
+@media (max-width: 1050px)
+{
+    .exp{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    .exp .c1 {
+        display: none;
+    }
+
+    .textExp {
+        text-align: center;
+    }
+
+    .c2 .bloco{
+        text-align: center;
+    }
+
+    .blocosExp {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 450px;
+        height: fit-content;
+        text-align: center;
+    }
+
+    .categoriaExp {
+        margin-top: 10px;
+    }
+    .listaExp ul{
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .gridMain {
+        gap: 30px;
+    }
+
+    .blocosExp::before {
+        top: 14px;
+        left: -100px;
+    }
+}

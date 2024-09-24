@@ -1,0 +1,48 @@
+@import "./header.css";
+@import "./apresentacao.css";
+@import "./experiencia.css";
+@import "./formacao.css";
+@import "./footer.css";
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.gridMain {
+    display: grid;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 5);
+    
+}
+
+
+
+
+
+
