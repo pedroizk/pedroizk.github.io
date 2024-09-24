@@ -32,9 +32,10 @@
     .footer {
         display:grid;
         grid-template-columns:1fr;
-        margin-left: 20vh;
+        margin-left: 25vh;
         margin-right: 20vh;
         gap: 40px;
+
     }
 
     .footer p {
